@@ -1,10 +1,11 @@
 .aside{
   position: left;
-  height:720px;
+  height:676px;
   width:176px;
   background-color: #1b3c50;
-  margin: 21px;
-  padding-right: 15px
+  margin: 21px 0;
+  padding-right: 15px;
+  padding-top: 44px;
 }
 
 .profile-Name{
@@ -28,12 +29,16 @@
   font-family: "Montserrat-Bold", sans-serif;
 }
 
-.circle{
-	width: 100px;
-	height: 100px;
-	background: #50e3c2;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-  margin-left: 35px;
+.picture{
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border: solid 2px #50e3c2;
+  border-radius: 50px;
+  margin-left: 45px;
+}
+
+.aside-List{
+padding-top: 66px;
 }
