@@ -1,13 +1,22 @@
 body{
 background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
 background-repeat: no-repeat;
-height: 52em;
-min-width: 60em;
-max-width: 100em;
+min-width: 960px;
+max-width: 1600px;
+height: 900px;
+}
+
+.desktop-background {
+  background-color: #f7f7f7;
+  width: 950px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .hero-Content{
-  float: right;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 60px;
   background-color: #f7f7f7;
 }
 
