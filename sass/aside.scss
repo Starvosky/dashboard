@@ -9,24 +9,29 @@
 }
 
 .profile-Name{
-  font-family: "Montserrat-Regular", sans-serif;
+  font-family: "Montserrat:400", sans-serif;
   text-align: center;
   color: #f7f7f7;
   font-size: 15px;
+  padding: 10px;
+  margin-left: 20px;
+  letter-spacing: .5px;
 }
 
 .aside-Options{
   text-align: center;
   color: #f7f7f7;
   font-size: 13px;
-  font-family: "Montserrat-Regular", sans-serif;
+  font-family: "Montserrat:400", sans-serif;
+  letter-spacing: .5px;
 }
 
 .aside-Titles{
   text-align: left;
   color: #f7f7f7;
   font-size: 11px;
-  font-family: "Montserrat-Bold", sans-serif;
+  font-family: "Montserrat:700", sans-serif;
+  letter-spacing: .5px;
 }
 
 .picture{
@@ -39,6 +44,8 @@
   margin-left: 45px;
 }
 
-.aside-List{
-padding-top: 66px;
+.aside-List {
+padding-top: 10px;
+line-height: 30px;
+margin-left: 40px;
 }
