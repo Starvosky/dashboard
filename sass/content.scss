@@ -1,11 +1,13 @@
+//This sets the background color and gives it a min and max size.
 body{
 background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
 background-repeat: no-repeat;
 min-width: 960px;
 max-width: 1600px;
-height: 900px;
+height: 745px;
 }
 
+//These three give each section the over lapping background color.
 .desktop-background {
   background-color: #f7f7f7;
   width: 950px;
@@ -25,6 +27,7 @@ height: 900px;
   background-color: #f7f7f7;
 }
 
+//These two give each text spacing between them.
 .content-Title-Text{
   padding-top: 10px;
 }
@@ -33,6 +36,7 @@ height: 900px;
   padding-top: 10px;
 }
 
+//These three are moved around to make them align.
 .current-Semester{
   padding-top: 30px;
   position: absolute;
@@ -48,6 +52,21 @@ padding-left: 500px;
 margin-top: -40px;
 }
 
+//Moves the page break.
 .second-Break{
 margin-top: 10px;
+}
+
+
+.upcoming-Due-Dates{
+  padding-left:350px;
+  margin-top: -100px;
+}
+
+.third-Break{
+
+}
+
+.content-Paragraph-Text{
+width: 355px;
 }
