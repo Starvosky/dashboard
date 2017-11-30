@@ -4,38 +4,54 @@
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="../style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
   <title>Current Schedule</title>
 </head>
 <body>
-  <section class="desktop-Background">
-    <header class="">
-      <h4 class=""></h4>
-      <h4 class="">Home/Current Schedule</h4>
-      <h4 class="">Logout</h4>
-      <div class="rectangle-Header"></div>
-    </header>
-    <section class="hero-Content">
-      <div class="current-Program">
-        <h4 class="content-Title-Text">Current Program:</h4>
-        <h1 class="content-Subtitle-Text">Computer Software Engineering Technology></h1>
-      </div>
-      <div class="current-Semester">
-        <h4 class="content-Title-Text">Current Semester:</h4>
-        <h1 class="content-Subtitle-Text">Fall 2017</h1>
-      </div>
-      <div class="enrolled-Credit-Hours">
-        <h4 class="content-Title-Text">Enrolled Credit Hours:</h4>
-        <h1 class="content-Subtitle-Text">15</h1>
-      </div>
-      <div class="academic-Standing">
-        <h4 class="content-Title-Text">Academic Standing</h4>
-        <h1 class="content-Subtitle-Text">Good</h1>
-      </div>
-      <div class="page-Breaks"></div>
-    </section>
+  <section class="desktop-background">
+    <!-- A header is used for the home name -->
 
-    <aside class="aside">
-      <h1 class="profile-Name">Benedict Cumberbatch</h1>
+  <header class="body-Header">
+
+    <h4 class="header-Title-Text">Home</h4>
+    <!-- The empty h4 is for the current date through javascript.-->
+    <ul class="date-Log-Out">
+    <li class="header-Date-Text">Date</li>
+    <li class="header-Log-Out-Text">Log Out?</li>
+    </ul>
+    <!-- a div class will be used to create a rectangle line to seperate the content of each section-->
+    <div class="page-Breaks top-Break"></div>
+  </header>
+  <!-- This section consists of the hero content used on every other document -->
+  <section class="hero-Content">
+    <!-- Each div is used to contain the headings as they need to be side by side of eachother in a non listed form. -->
+    <div class="current-Program">
+      <h4 class="content-Title-Text">CURRENT PROGRAM:</h4>
+      <h1 class="content-Subtitle-Text">Computer Software Engineering Technology</h1>
+    </div>
+    <div class="current-Semester">
+      <h4 class="hero-Title-Text">Current Semester:</h4>
+      <h1 class="content-Subtitle-Text">Fall 2017</h1>
+    </div>
+    <div class="enrolled-Credit-Hours">
+      <h4 class="hero-Title-Text">Enrolled Credit Hours:</h4>
+      <h1 class="content-Subtitle-Text">15</h1>
+    </div>
+    <div class="academic-Standing">
+      <h4 class="hero-Title-Text">Academic Standing</h4>
+      <h1 class="content-Subtitle-Text">Good</h1>
+    </div>
+    <div class="page-Breaks second-Break"></div>
+  </section>
+  <!-- This section is used for the profile and desktop tabs. Each heading has a subtitle list of links to view. -->
+
+    <section class="aside">
+      <div class="circle">
+        <div><img class="picture" src="images/profile-avatar.jpg"></div>
+      </div>
+
+      <h1 class="profile-Name">Benedic Cumberbatch</h1>
+      <div class="aside-List">
       <h5 class="aside-Titles">Academic Services</h5>
       <ul>
         <li class="aside-Options">Current Schedule</li>
@@ -48,28 +64,29 @@
         <li class="aside-Options">Financial Aid</li>
         <li class="aside-Options">Student Services</li>
       </ul>
-    </aside>
+    </div>
+    </section>
 
     <div class="current-Schedule">
-      <h1 class="current-Title-Text">Current Schedule:</h1>
+      <h1 class="content-Title-Text">CURRENT SCHEDULE:</h1>
 
-      <h4 class="current-Classtime">CSET 105, M, 12:00pm - 4:30pm</h4>
-      <h1 class="current-Classname">Intro to Web Application</h1>
+      <h4 class="hero-Title-Text">CSET 105, M, 12:00pm - 4:30pm</h4>
+      <h1 class="content-Subtitle-Text">Intro to Web Application</h1>
 
-      <h4 class="current-Classtime">CSET 110, T, 12:00pm - 4:30pm &amp; W, 12:30pm - 4:30pm</h4>
-      <h1 class="current-Classname">Web Development I</h1>
+      <h4 class="hero-Title-Text">CSET 110, T, 12:00pm - 4:30pm &amp; W, 12:30pm - 4:30pm</h4>
+      <h1 class="content-Subtitle-Text">Web Development I</h1>
 
-      <h4 class="current-Classtime">CSET 115, R, 12:00pm - 4:30pm</h4>
-      <h1 class="current-Classname">Technical Requirements &amp; Data Structures</h1>
+      <h4 class="hero-Title-Text">CSET 115, R, 12:00pm - 4:30pm</h4>
+      <h1 class="content-Subtitle-Text">Technical Requirements &amp; Data Structures</h1>
 
-      <h4 class="current-Classtime">CSET 120, F, 12:00pm - 4:30pm</h4>
-      <h1 class="current-Classname">Software Project I/Open Lab</h1>
+      <h4 class="hero-Title-Text">CSET 120, F, 12:00pm - 4:30pm</h4>
+      <h1 class="content-Subtitle-Text">Software Project I/Open Lab</h1>
 
-      <h4 class="current-Classtime">ENGL 100, M &amp; W, 8am - 9:30am</h4>
-      <h1 class="current-Classname">English Composition</h1>
+      <h4 class="hero-Title-Text">ENGL 100, M &amp; W, 8am - 9:30am</h4>
+      <h1 class="content-Subtitle-Text">English Composition</h1>
 
-      <h4 class="current-Classtime">MATH 100, T &amp; R, 8am - 9:30pm</h4>
-      <h1 class="current-Classname">College Algebra</h1>
+      <h4 class="hero-Title-Text">MATH 100, T &amp; R, 8am - 9:30pm</h4>
+      <h1 class="content-Subtitle-Text">College Algebra</h1>
     </div>
 
     <div class="view-As">
@@ -78,67 +95,67 @@
 
     <section class="current-Schedule-Calender">
       <div class="monday">
-        <h1 class="day">Monday</h1>
+        <h1 class="schedule-Day-Text">Monday</h1>
 
         <div class="eng-101">
-          <h4 class="current-Classtime-Two">ENGL 101, 8:30 - 9:30AM</h4>
-          <h2 class="current-Classname-Two">English Compostion</h2>
+          <h4 class="current-Classname-Time">ENGL 101, 8:30 - 9:30AM</h4>
+          <h2 class="current-Classname-Title">English Compostion</h2>
         </div>
 
         <div class="cset-105">
-          <h4 class="current-Classtime-Two">CSET 105, 12:00 - 4:30PM</h4>
-          <h2 class="current-Classname-Two">Intro to Web Applications</h2>
+          <h4 class="current-Classname-Time">CSET 105, 12:00 - 4:30PM</h4>
+          <h2 class="current-Classname-Title">Intro to Web Applications</h2>
         </div>
       </div>
 
       <div class="tuesday">
-        <h1 class="day">Tuesday</h1>
+        <h1 class="schedule-Day-Text">Tuesday</h1>
 
         <div class="math-100">
-          <h4 class="current-Classtime-Two">MATH 100, 8:00 - 9:30AM</h4>
-          <h2 class="current-Classname-Two">College Algebra</h2>
+          <h4 class="current-Classname-Time">MATH 100, 8:00 - 9:30AM</h4>
+          <h2 class="current-Classname-Title">College Algebra</h2>
         </div>
 
         <div class="cset-110">
-          <h4 class="current-Classtime-Two">CSET 110, 12:00 - 4:30PM</h4>
-          <h2 class="current-Classname-Two">Web Development 1</h2>
+          <h4 class="current-Classname-Time">CSET 110, 12:00 - 4:30PM</h4>
+          <h2 class="current-Classname-Title">Web Development 1</h2>
         </div>
       </div>
 
       <div class="wednesday">
-        <h1 class="day">Wednesday</h1>
+        <h1 class="schedule-Day-Text">Wednesday</h1>
 
         <div class="eng-101">
-          <h4 class="current-Classtime-Two">ENGL 101, 8:30 - 9:30AM</h4>
-          <h2 class="current-Classname-Two">English Compostion</h2>
+          <h4 class="current-Classname-Time">ENGL 101, 8:30 - 9:30AM</h4>
+          <h2 class="current-Classname-Title">English Compostion</h2>
         </div>
 
         <div class="cset-110">
-          <h4 class="current-Classtime-Two">CSET 110, 12:00 - 4:30PM</h4>
-          <h2 class="current-Classname-Two">Web Development 1</h2>
+          <h4 class="current-Classname-Time">CSET 110, 12:00 - 4:30PM</h4>
+          <h2 class="current-Classname-Title">Web Development 1</h2>
         </div>
       </div>
 
       <div class="thursday">
-        <h1 class="day">Thursday</h1>
+        <h1 class="schedule-Day-Text">Thursday</h1>
 
         <div class="math-100">
-          <h4 class="current-Classtime-Two">MATH 100, 8:00 - 9:30AM</h4>
-          <h2 class="current-Classname-Two">College Algebra</h2>
+          <h4 class="current-Classname-Time">MATH 100, 8:00 - 9:30AM</h4>
+          <h2 class="current-Classname-Title">College Algebra</h2>
         </div>
 
         <div class="cset-115">
-          <h4 class="current-Classtime-Two">CSET 115, 12:00 - 4:30PM</h4>
-          <h2 class="current-Classname-Two">Technical Requirements &amp; Data Structures</h2>
+          <h4 class="current-Classname-Time">CSET 115, 12:00 - 4:30PM</h4>
+          <h2 class="current-Classname-Title">Technical Requirements &amp; Data Structures</h2>
         </div>
       </div>
 
       <div class="friday">
-        <h1 class="day">Friday</h1>
+        <h1 class="schedule-Day-Text">Friday</h1>
 
         <div class="cset-120">
-          <h4 class="current-Classtime-Two">CSET 120, 12:00 - 4:30PM</h4>
-          <h2 class="current-Classname-Two">Software Project 1 Open Lab</h2>
+          <h4 class="current-Classname-Time">CSET 120, 12:00 - 4:30PM</h4>
+          <h2 class="current-Classname-Title">Software Project 1 Open Lab</h2>
         </div>
       </div>
     </section>

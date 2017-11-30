@@ -43,3 +43,27 @@
 .content-Email-Text {
   color: #33c7ba;
 }
+
+.schedule-Day-Text {
+  font-family: "Montserrat:400", sans-serif;
+  font-size: 10px;
+  color: #2e0a3a;
+}
+//These two class names are using a color close to white, so in order to see them you have to pace a background behind it.
+.current-Classname-Time {
+  font-family: "Montserrat:400", sans-serif;
+  font-size: 8px;
+  color: #f7f7f7
+}
+
+.current-Classname-Title {
+  font-family: "Montserrat:400", sans-serif;
+  font-size: 10px;
+  color: #f7f7f7
+}
+
+.view-As {
+  font-family: "Montserrat:700", sans-serif;
+  font-size: 10px;
+  color: #2e0a3a;
+}
