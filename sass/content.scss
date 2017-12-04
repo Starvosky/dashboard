@@ -57,15 +57,21 @@ margin-top: -40px;
 margin-top: 10px;
 }
 
-
+//Moved the upcoming dates into the correct position.
 .upcoming-Due-Dates{
+  position: absolute;
   padding-left:400px;
-  margin-top: -100px;
+  margin-top: -70px;
   width: 300px;
 }
 
+//This is the thrid page break
 .third-Break{
-
+position: absolute;
+width: 674px;
+height: 2px;
+background-color: #6291a9;
+margin-top: 90px;
 }
 
 .content-Paragraph-Text{
@@ -73,11 +79,14 @@ width: 355px;
 }
 
 .upcoming-Events{
-  padding-left: 450px;
-
+  position: absolute;
+  padding-left: 400px;
   width: 300px;
+  margin-top: 100px;
 }
 
 .college-Announcements{
+  position: absolute;
   margin-top: 30px;
+  margin-top: 100px;
 }
