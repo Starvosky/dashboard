@@ -1,11 +1,13 @@
+//This sets the background color and gives it a min and max size.
 body{
 background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
 background-repeat: no-repeat;
 min-width: 960px;
 max-width: 1600px;
-height: 900px;
+height: 745px;
 }
 
+//These three give each section the over lapping background color.
 .desktop-background {
   background-color: #f7f7f7;
   width: 950px;
@@ -25,6 +27,7 @@ height: 900px;
   background-color: #f7f7f7;
 }
 
+//These two give each text spacing between them.
 .content-Title-Text{
   padding-top: 10px;
 }
@@ -33,6 +36,7 @@ height: 900px;
   padding-top: 10px;
 }
 
+//These three are moved around to make them align.
 .current-Semester{
   padding-top: 30px;
   position: absolute;
@@ -48,12 +52,47 @@ padding-left: 500px;
 margin-top: -40px;
 }
 
+//Moves the page break.
 .second-Break{
 margin-top: 10px;
 }
+
 
 .grades-Circle{
   margin: 11px;
   width: 152px;
   height: 152px;
+
+//Moved the upcoming dates into the correct position.
+.upcoming-Due-Dates{
+  position: absolute;
+  padding-left:400px;
+  margin-top: -70px;
+  width: 300px;
+}
+
+//This is the thrid page break
+.third-Break{
+position: absolute;
+width: 674px;
+height: 2px;
+background-color: #6291a9;
+margin-top: 90px;
+}
+
+.content-Paragraph-Text{
+width: 355px;
+}
+
+.upcoming-Events{
+  position: absolute;
+  padding-left: 400px;
+  width: 300px;
+  margin-top: 100px;
+}
+
+.college-Announcements{
+  position: absolute;
+  margin-top: 30px;
+  margin-top: 100px;
 }
