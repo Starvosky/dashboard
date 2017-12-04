@@ -21,16 +21,20 @@
 .aside-Options{
   text-align: center;
   color: #f7f7f7;
-  font-size: 13px;
-  font-family: "Montserrat:400", sans-serif;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   letter-spacing: .5px;
+  text-align: left;
+  margin-left: 15px;
 }
 
 .aside-Titles{
   text-align: left;
   color: #f7f7f7;
   font-size: 11px;
-  font-family: "Montserrat:700", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   letter-spacing: .5px;
 }
 
@@ -47,5 +51,5 @@
 .aside-List {
 padding-top: 10px;
 line-height: 30px;
-margin-left: 40px;
+margin-left: 20px;
 }
