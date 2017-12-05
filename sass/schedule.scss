@@ -20,10 +20,57 @@
   text-align: left;
 }
 .view-As{
-  position: relative;
+  position: absolute;
   margin-top: -500px;
+  margin-left: 770px;
   float: right;
   clear: left;
   text-align: right;
   letter-spacing: 0.2px;
+  font-weight: bold;
+  word-spacing: 5px;
+}
+.monday , .tuesday , .wednesday , .thursday, .friday{
+  background-color: rgba(47, 207, 186, 0.15);
+  width: 12%;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.tuesday{
+  position: absolute;
+  margin-top: -72px;
+  margin-left: 115px;
+}
+.wednesday{
+  position: absolute;
+  margin-top: -72px;
+  margin-left: 285px;
+}
+.thursday{
+  position: absolute;
+  margin-top: -72px;
+  margin-left: 455px;
+}
+.friday{
+  position: absolute;
+  margin-top: -72px;
+  margin-left: 625px;
+}
+.eng-101 , .math-100 , .cset-105 , .cset-110 , .cset-115 , .cset-120{
+  background-color: #1b3c50;
+}
+.schedule-Day-Text{
+  padding: 15px 10px 17px 10px;
+}
+.current-Classname-Time, .current-Classname-Title{
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.current-Classname-Time{
+  padding-top: 15px;
+  padding-bottom: 3px;
+}
+.current-Classname-Title{
+  padding-bottom: 18px;
 }
