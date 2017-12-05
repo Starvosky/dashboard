@@ -41,7 +41,7 @@ height: 745px;
 
 .academic-Standing{
 padding-left: 500px;
-margin-top: -26px;
+margin-top: -42px;
 }
 
 //Moves the page break.
@@ -58,14 +58,13 @@ margin-top: 20px;
 
 //Moved the upcoming dates into the correct position.
 .upcoming-Due-Dates{
-  position: absolute;
   padding-left:400px;
-  margin-top: -115px;
+  margin-top: -89px;
   width: 300px;
 }
 
 .upcoming-Due-Dates h4 {
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 //This is the thrid page break
@@ -83,13 +82,12 @@ width: 355px;
 
 .upcoming-Events{
   position: absolute;
-  padding-left: 400px;
+  margin-left: 400px;
   width: 300px;
-  margin-top: 90px;
+  margin-top: 110px;
 }
 
 .college-Announcements{
-  position: absolute;
   margin-top: 110px;
 }
 
@@ -103,7 +101,8 @@ width: 355px;
 }
 
 .upcoming-Events h4{
-  padding-top: 20px;
+  padding-top: 40px;
+  display: inline;
 }
 
 .scrolling-Content .program {
