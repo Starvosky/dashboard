@@ -12,14 +12,22 @@ header{
   width: 674px;
 }
 
-.date-Log-Out{
-  float: right;
-  line-height: 15px;
-}
-
 .top-Break{
- margin-top: 40px;
+ margin-top: 45px;
 }
 
-.header-Title-Text{ 
+.body-Header h4 {
+  position: absolute;
+  margin-top: 30px;
+}
+
+.date-Log-Out {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 570px;
+  text-align: right;
+}
+
+.date-Log-Out li {
+ line-height: 15px;
 }
