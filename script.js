@@ -27,3 +27,5 @@ var n = weekday[day.getDay()];
 var m = months[month.getMonth()];
 var time = new Date();
 console.log(n + ', ' + m + ' ' + time.getDay() + ', ' + time.getFullYear());
+
+document.getElementById("dateInsert").innerHTML = (n + ', ' + m + ' ' + time.getDay() + ', ' + time.getFullYear());
