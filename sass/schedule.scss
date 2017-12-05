@@ -32,33 +32,51 @@
 }
 .monday , .tuesday , .wednesday , .thursday, .friday{
   background-color: rgba(47, 207, 186, 0.15);
-  width: 12%;
+  width: 10%;
   line-height: 12px;
   letter-spacing: 0.2px;
   text-align: center;
+  visibility: hidden;
+}
+.monday{
+  position: absolute;
+  margin-top: -462px;
+  margin-left: 225px;
 }
 .tuesday{
   position: absolute;
-  margin-top: -72px;
-  margin-left: 115px;
+  margin-top: -462px;
+  margin-left: 367px;
 }
 .wednesday{
   position: absolute;
-  margin-top: -72px;
-  margin-left: 285px;
+  margin-top: -462px;
+  margin-left: 509px;
 }
 .thursday{
   position: absolute;
-  margin-top: -72px;
-  margin-left: 455px;
+  margin-top: -462px;
+  margin-left: 651px;
 }
 .friday{
   position: absolute;
-  margin-top: -72px;
-  margin-left: 625px;
+  margin-top: -462px;
+  margin-left: 793px;
 }
-.eng-101 , .math-100 , .cset-105 , .cset-110 , .cset-115 , .cset-120{
+.eng-101 , .math-100 , .cset-105 , .cset-110 , .cset-110-Wednesday , .cset-115 , .cset-120{
   background-color: #1b3c50;
+}
+.free-Time{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.free-Time-Wednesday{
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+.free-Time-Friday{
+  padding-top: 75px;
+  padding-bottom: 45px;
 }
 .schedule-Day-Text{
   padding: 15px 10px 17px 10px;
@@ -73,4 +91,27 @@
 }
 .current-Classname-Title{
   padding-bottom: 18px;
+}
+.cset-105{
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.cset-110{
+  padding-top: 55px;
+  padding-bottom: 67px;
+}
+.cset-115{
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.cset-120{
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.cset-110-Wednesday{
+  padding-top: 55px;
+  padding-bottom: 62px;
+}
+.break-Time{
+  display: none;
 }
