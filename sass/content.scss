@@ -23,10 +23,6 @@ height: 745px;
   padding-top: 0px;
 }
 
-.scrolling-Content{
-  background-color: #f7f7f7;
-}
-
 //These two give each text spacing between them.
 //These three are moved around to make them align.
 .current-Semester{
@@ -59,12 +55,8 @@ margin-top: 20px;
 //Moved the upcoming dates into the correct position.
 .upcoming-Due-Dates{
   padding-left:400px;
-  margin-top: -89px;
+  margin-top: -132px;
   width: 300px;
-}
-
-.upcoming-Due-Dates h4 {
-  padding-top: 50px;
 }
 
 //This is the thrid page break
@@ -73,7 +65,7 @@ position: absolute;
 width: 674px;
 height: 2px;
 background-color: #6291a9;
-margin-top: 90px;
+margin-top: 20px;
 }
 
 .content-Paragraph-Text{
@@ -84,11 +76,12 @@ width: 355px;
   position: absolute;
   margin-left: 400px;
   width: 300px;
-  margin-top: 110px;
+  margin-top: 20px;
 }
 
 .college-Announcements{
-  margin-top: 110px;
+  position: absolute;
+  margin-top: 20px;
 }
 
 .college-Announcements h1{
@@ -100,11 +93,26 @@ width: 355px;
   line-height: 20px;
 }
 
-.upcoming-Events h4{
-  padding-top: 40px;
-  display: inline;
+.scrolling-Content h1{
+  width: 250px;
 }
 
 .scrolling-Content .program {
+  margin-bottom: 20px;
+}
+
+.scrolling-Content h4{
+ margin-top: 20px;
+}
+
+.upcoming-Events h1{
+  margin-bottom: 20px;
+}
+
+.Upcoming-Due-Dates h1{
+  margin-bottom: 20px;
+}
+
+.content {
   margin-bottom: 20px;
 }

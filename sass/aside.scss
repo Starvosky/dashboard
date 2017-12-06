@@ -19,7 +19,6 @@
 }
 
 .aside-Options{
-  text-align: center;
   color: #f7f7f7;
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
@@ -38,6 +37,37 @@
   letter-spacing: .5px;
 }
 
+.aside li a:link{
+  color: #f7f7f7;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
+.aside li a:visited{
+  color: #f7f7f7;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
+.aside li a:hover{
+  color: #f7f7f7;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: .5px;
+  display: block;
+  background: #0b2535;
+}
+
+.aside li:hover{
+  left: 100%;
+  width: 100%;
+}
+
 .picture{
   width: 100px;
   height: 100px;
@@ -49,7 +79,8 @@
 }
 
 .aside-List {
+position: absolute;
 padding-top: 10px;
 line-height: 30px;
-margin-left: 20px;
+padding-left: 20px;
 }
