@@ -24,10 +24,34 @@ header{
 .date-Log-Out {
   position: absolute;
   margin-top: 10px;
-  margin-left: 570px;
+  margin-left: 510px;
   text-align: right;
 }
 
 .date-Log-Out li {
  line-height: 15px;
+ white-space: nowrap;
+}
+
+.date-Log-Out li a:link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #52a5af;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.date-Log-Out li a:visited {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #52a5af;
+}
+
+.date-Log-Out li a:hover {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #52a5af;
 }

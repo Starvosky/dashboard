@@ -4,5 +4,15 @@ height: 400px;
 width: 690px;
 overflow: scroll;
 margin-left: 250px;
-margin-top: -520px;
+margin-top: -540px;
+background-color: #f7f7f7;
+overflow-x: hidden;
+}
+
+.scrolling-Content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.scrolling-Content::-webkit-scrollbar-thumb {
+  background-color: #38bfba;
 }
