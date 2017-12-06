@@ -28,4 +28,4 @@ var m = months[month.getMonth()];
 var time = new Date();
 console.log(n + ', ' + m + ' ' + time.getDay() + ', ' + time.getFullYear());
 
-document.getElementById("body-Header").innerHTML = (n + ', ' + m + ' ' + time.getDay() + ', ' + time.getFullYear());
+document.getElementById("body-Header").innerHTML = (n + ', ' + m + ' ' + time.getDate() + ', ' + time.getFullYear());
