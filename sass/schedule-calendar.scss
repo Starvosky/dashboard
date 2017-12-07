@@ -1,0 +1,117 @@
+.current-Schedule{
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 220px;
+}
+.content-Title-Text{
+  letter-spacing: 0.2px;
+  line-height: 21px;
+  text-align: left;
+}
+.hero-Title-Text{
+  letter-spacing: 0.2px;
+  line-height: 21px;
+  text-align: left;
+}
+.content-Subtitle-Text{
+  letter-spacing: 0.2px;
+  line-height: 21px;
+  text-align: left;
+}
+.view-As{
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 770px;
+  float: right;
+  clear: left;
+  text-align: right;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+  word-spacing: 5px;
+}
+.monday , .tuesday , .wednesday , .thursday, .friday{
+  background-color: rgba(47, 207, 186, 0.15);
+  width: 10%;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  visibility: visible;
+  display: inline-block;
+}
+.monday{
+  position: absolute;
+  margin-top: -462px;
+  margin-left: 225px;
+}
+.tuesday{
+  position: absolute;
+  margin-top: -462px;
+  margin-left: 367px;
+}
+.wednesday{
+  position: absolute;
+  margin-top: -462px;
+  margin-left: 509px;
+}
+.thursday{
+  position: absolute;
+  margin-top: -462px;
+  margin-left: 651px;
+}
+.friday{
+  position: absolute;
+  margin-top: -462px;
+  margin-left: 793px;
+}
+.eng-101 , .math-100 , .cset-105 , .cset-110 , .cset-110-Wednesday , .cset-115 , .cset-120{
+  background-color: #1b3c50;
+}
+.free-Time{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.free-Time-Wednesday{
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+.free-Time-Friday{
+  padding-top: 75px;
+  padding-bottom: 45px;
+}
+.schedule-Day-Text{
+  padding: 15px 10px 17px 10px;
+}
+.current-Classname-Time, .current-Classname-Title{
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.current-Classname-Time{
+  padding-top: 15px;
+  padding-bottom: 3px;
+}
+.current-Classname-Title{
+  padding-bottom: 18px;
+}
+.cset-105{
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.cset-110{
+  padding-top: 55px;
+  padding-bottom: 67px;
+}
+.cset-115{
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.cset-120{
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.cset-110-Wednesday{
+  padding-top: 55px;
+  padding-bottom: 62px;
+}
+.break-Time{
+  display: none;
+}
