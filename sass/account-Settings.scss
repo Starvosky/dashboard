@@ -40,8 +40,27 @@
   border: solid 1px #d0021b;
 }
 
-.error-Text{
-  color: #d0021b;
-  padding-left: 205px;
-  margin-top: 0px;
+//.error-Text{
+  //color: #d0021b;
+  //padding-left: 205px;
+  //margin-top: 0px;
+//}
+
+.pop-Up-Email-Approve{
+  background-color: #f7f7f7;
+  width: 490px;
+  height: 257px;
+  float: right;
+  margin-right: -200px;
+  padding-left: 43px;
+  padding-top: 55px;
+  line-height: 25px;
+}
+
+.done-Button{
+  background-color: #3bb9ba;
+  width: 114px;
+  height: 42px;
+  text-align: center;
+  margin-top: 65px;
 }
