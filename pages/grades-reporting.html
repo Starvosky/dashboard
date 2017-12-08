@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Grades&amp;Reporting</title>
-  <link rel="stylesheet" type="text/css" href="../style.css">
-  <link rel="stylesheet" type="text/css" href="css-circle/circle.css">
+<link rel="stylesheet" type="text/css" href="../style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
 </head>
@@ -14,61 +13,60 @@
     <!-- A header is used for the home name -->
 
     <header class="body-Header">
+    <h4 class="header-Title-Text">Home</h4>
+    <!-- The empty h4 is for the current date through javascript.-->
+    <ul class="date-Log-Out">
+    <li class="header-Date-Text"><p id="body-Header"></p></li>
+    <li class="header-Log-Out-Text"><a href="account-settings.html">SETTINGS</a> | <a href="../index.html">LOG OUT?</li>
+    </ul>
+    <!-- a div class will be used to create a rectangle line to seperate the content of each section-->
+    <div class="page-Breaks top-Break"></div>
+  </header>
+  <!-- This section consists of the hero content used on every other document -->
+  <section class="hero-Content">
+    <!-- Each div is used to contain the headings as they need to be side by side of eachother in a non listed form. -->
+    <div class="current-Program">
+      <h4 class="content-Title-Text">CURRENT PROGRAM:</h4>
+      <h1 class="content-Subtitle-Text">Computer Software Engineering Technology</h1>
+    </div>
+    <div class="current-Semester">
+      <h4 class="hero-Title-Text">Current Semester:</h4>
+      <h1 class="content-Subtitle-Text">Fall 2017</h1>
+    </div>
+    <div class="enrolled-Credit-Hours">
+      <h4 class="hero-Title-Text">Enrolled Credit Hours:</h4>
+      <h1 class="content-Subtitle-Text">15</h1>
+    </div>
+    <div class="academic-Standing">
+      <h4 class="hero-Title-Text">Academic Standing</h4>
+      <h1 class="content-Subtitle-Text">Good</h1>
+    </div>
+    <div class="page-Breaks second-Break"></div>
+  </section>
+  <!-- This section is used for the profile and desktop tabs. Each heading has a subtitle list of links to view. -->
 
-      <h4 class="header-Title-Text">Home</h4>
-      <!-- The empty h4 is for the current date through javascript.-->
-      <ul class="date-Log-Out">
-        <li class="header-Date-Text"><p id="body-Header"></li>
-          <li class="header-Log-Out-Text">Log Out?</li>
-        </ul>
-        <!-- a div class will be used to create a rectangle line to seperate the content of each section-->
-        <div class="page-Breaks top-Break"></div>
-      </header>
-      <!-- This section consists of the hero content used on every other document -->
-      <section class="hero-Content">
-        <!-- Each div is used to contain the headings as they need to be side by side of eachother in a non listed form. -->
-        <div class="current-Program">
-          <h4 class="content-Title-Text">CURRENT PROGRAM:</h4>
-          <h1 class="content-Subtitle-Text">Computer Software Engineering Technology</h1>
-        </div>
-        <div class="current-Semester">
-          <h4 class="hero-Title-Text">Current Semester:</h4>
-          <h1 class="content-Subtitle-Text">Fall 2017</h1>
-        </div>
-        <div class="enrolled-Credit-Hours">
-          <h4 class="hero-Title-Text">Enrolled Credit Hours:</h4>
-          <h1 class="content-Subtitle-Text">15</h1>
-        </div>
-        <div class="academic-Standing">
-          <h4 class="hero-Title-Text">Academic Standing</h4>
-          <h1 class="content-Subtitle-Text">Good</h1>
-        </div>
-        <div class="page-Breaks second-Break"></div>
-      </section>
-      <!-- This section is used for the profile and desktop tabs. Each heading has a subtitle list of links to view. -->
+  <section class="aside">
+    <div class="circle">
+      <div><img class="picture" src="../images/profile-avatar.jpg"></div>
+    </div>
 
-      <section class="aside">
-        <div class="circle">
-          <div><img class="picture" src="../images/profile-avatar.jpg"></div>
-        </div>
-
-        <h1 class="profile-Name">Benedic Cumberbatch</h1>
-        <div class="aside-List">
-          <h5 class="aside-Titles">Academic Services</h5>
-          <ul>
-            <li class="aside-Options">Academic Dashboard</li>
-            <li class="aside-Options">Current Schedule</li>
-            <li class="aside-Options">Grades &amp; Reporting</li>
-            <li class="aside-Options">Upcoming Courses</li>
-          </ul>
-          <h5 class="aside-Titles">College Information</h5>
-          <ul>
-            <li class="aside-Options">College Calendar</li>
-            <li class="aside-Options">Financial Aid</li>
-            <li class="aside-Options">Student Services</li>
-          </ul>
-        </div>
-      </section>
+    <h1 class="profile-Name">Benedic Cumberbatch</h1>
+    <div class="aside-List">
+    <h5 class="aside-Titles">Academic Services</h5>
+    <ul>
+      <li class="aside-Options"><a href="academic-dashboard.html">Academic Dashboard</a></li>
+      <li class="aside-Options"><a href="currentschedule.html">Current Schedule</a></li>
+      <li class="aside-Options"><a href="grades-reporting.html">Grades &amp; Reporting</a></li>
+      <li class="aside-Options"><a href="upcomingcourses.html">Upcoming Courses</a></li>
+    </ul>
+    <h5 class="aside-Titles">College Information</h5>
+    <ul>
+      <li class="aside-Options"><a href="https://my.stevenscollege.edu/ICS/Home.jnz?portlet=Events_Calendar&screen=MainView&screenType=change">College Calendar</a></li>
+      <li class="aside-Options"><a href="https://stevenscollege.edu/financialaid/">Financial Aid</a></li>
+      <li class="aside-Options"><a href="https://my.stevenscollege.edu/ICS/Students/">Student Services</a></li>
+    </ul>
+  </div>
+  </section>
 
       <section class="scrolling-Content">
         <!-- This section consists of the course information -->
@@ -79,125 +77,126 @@
           <h1 class="content-Subtitle-Text">Into to Web Applications</h1>
           <!-- The grade is given a white background to work inside of -->
           <div class="grades-Background">
-            <div class="clearfix">
-              <div class="c100 p12 small">
-                <span>12%</span>
-                <div class="slice">
-                  <div class="bar"></div>
-                  <div class="fill"></div>
-                </div>
+            <div class="grades-Circles">
+              <div class="grades-Circle-Highlight">
+                <h1 class="grades-Complete-Text">40%</h1>
+                <p class="grades-Dates-Text complete-Class"> of class completed</p>
               </div>
-
-            </div>
-            <div class="grades-Circle-Highlight">
-              <h1 class="grades-Complete-Text">40%</h1>
-              <p class="grades-Dates-Text"> of class completed</p>
             </div>
           </div>
-        </div>
-        <!-- More divs are used inside of the white box to  -->
-        <div class="grades-Start-Date">
-          <h6 class="grades-Dates-Text">Start Date:</h6>
-          <p class="grades-Dates-Text">August 20, 2017</p>
-        </div>
-        <div class="grades-End-Date">
-          <h6 class="grades-Dates-Text">End Date:</h6>
-          <p class="grades-Dates-Text">December 15, 2017</p>
-        </div>
+          <!-- More divs are used inside of the white box to  -->
+          <div class="grades-Start-Date">
+            <h6 class="grades-Dates-Text date-Font">START DATE:</h6>
+            <p class="grades-Dates-Text dates-Class">August 20, 2017</p>
+          </div>
+          <div class="grades-End-Date">
+            <h6 class="grades-Dates-Text date-Font">END DATE:</h6>
+            <p class="grades-Dates-Text dates-Class">December 15, 2017</p>
+          </div>
 
-        <h4 class="hero-Title-Text">CSET 120, T&amp;W, 12:00pm - 4:30pm</h4>
-        <h1 class="content-Subtitle-Text">Software Project I</h1>
-        <!-- The grade is given a white background to work inside of -->
-        <div class="grades-Background">
-          <div class="grades-Circles">
-            <div class="grades-Circle-Highlight">
-              <h1 class="grades-Complete-Text">40%</h1>
-              <p class="grades-Dates-Text"> of class completed</p>
+          <h4 class="hero-Title-Text">CSET 120, T&amp;W, 12:00pm - 4:30pm</h4>
+          <h1 class="content-Subtitle-Text">Software Project I</h1>
+          <!-- The grade is given a white background to work inside of -->
+          <div class="grades-Background">
+            <div class="grades-Circles">
+              <div class="grades-Circle-Highlight">
+                <h1 class="grades-Complete-Text">40%</h1>
+                <p class="grades-Dates-Text complete-Class"> of class completed</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- More divs are used inside of the white box to  -->
-        <div class="grades-Start-Date">
-          <h6 class="grades-Dates-Text">Start Date:</h6>
-          <p class="grades-Dates-Text">August 20, 2017</p>
-        </div>
-        <div class="grades-End-Date">
-          <h6 class="grades-Dates-Text">End Date:</h6>
-          <p class="grades-Dates-Text">December 15, 2017</p>
-        </div>
+          <!-- More divs are used inside of the white box to  -->
+          <div class="grades-Start-Date">
+            <h6 class="grades-Dates-Text date-Font">START DATE:</h6>
+            <p class="grades-Dates-Text">August 20, 2017</p>
+          </div>
+          <div class="grades-End-Date">
+            <h6 class="grades-Dates-Text date-Font">END DATE:</h6>
+            <p class="grades-Dates-Text">December 15, 2017</p>
+          </div>
 
-        <h4 class="hero-Title-Text">CSET 115, TH, 12:00pm - 4:30pm</h4>
-        <h1 class="content-Subtitle-Text">Technical Requirements and DataStructures</h1>
-        <!-- The grade is given a white background to work inside of -->
-        <div class="grades-Background">
-          <div class="grades-Circles">
-            <div class="grades-Circle-Highlight">
-              <h1 class="grades-Complete-Text">40%</h1>
-              <p class="grades-Dates-Text"> of class completed</p>
+          <h4 class="hero-Title-Text">CSET 115, TH, 12:00pm - 4:30pm</h4>
+          <h1 class="content-Subtitle-Text">Technical Requirements and DataStructures</h1>
+          <!-- The grade is given a white background to work inside of -->
+          <div class="grades-Background">
+            <div class="grades-Circles">
+              <div class="grades-Circle-Highlight">
+                <h1 class="grades-Complete-Text">40%</h1>
+                <p class="grades-Dates-Text complete-Class"> of class completed</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- More divs are used inside of the white box to  -->
-        <div class="grades-Start-Date">
-          <h6 class="grades-Dates-Text">Start Date:</h6>
-          <p class="grades-Dates-Text">August 20, 2017</p>
-        </div>
-        <div class="grades-End-Date">
-          <h6 class="grades-Dates-Text">End Date:</h6>
-          <p class="grades-Dates-Text">December 15, 2017</p>
-        </div>
+          <!-- More divs are used inside of the white box to  -->
+          <div class="grades-Start-Date">
+            <h6 class="grades-Dates-Text date-Font">START DATE:</h6>
+            <p class="grades-Dates-Text">August 20, 2017</p>
+          </div>
+          <div class="grades-End-Date">
+            <h6 class="grades-Dates-Text date-Font">END DATE:</h6>
+            <p class="grades-Dates-Text">December 15, 2017</p>
+          </div>
 
-        <h4 class="hero-Title-Text">CSET 110, F, 12:00pm - 4:30pm</h4>
-        <h1 class="content-Subtitle-Text">Web Development I</h1>
-        <!-- The grade is given a white background to work inside of -->
-        <div class="grades-Background">
-          <div class="grades-Circles">
-            <div class="grades-Circle-Highlight">
-              <h1 class="grades-Complete-Text">40%</h1>
-              <p class="grades-Dates-Text"> of class completed</p>
+          <h4 class="hero-Title-Text">CSET 110, F, 12:00pm - 4:30pm</h4>
+          <h1 class="content-Subtitle-Text">Web Development I</h1>
+          <!-- The grade is given a white background to work inside of -->
+          <div class="grades-Background">
+            <div class="grades-Circles">
+              <div class="grades-Circle-Highlight">
+                <h1 class="grades-Complete-Text">40%</h1>
+                <p class="grades-Dates-Text complete-Class"> of class completed</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- More divs are used inside of the white box to  -->
-        <div class="grades-Start-Date">
-          <h6 class="grades-Dates-Text">Start Date:</h6>
-          <p class="grades-Dates-Text">August 20, 2017</p>
-        </div>
-        <div class="grades-End-Date">
-          <h6 class="grades-Dates-Text">End Date:</h6>
-          <p class="grades-Dates-Text">December 15, 2017</p>
-        </div>
+          <!-- More divs are used inside of the white box to  -->
+          <div class="grades-Start-Date">
+            <h6 class="grades-Dates-Text date-Font">START DATE:</h6>
+            <p class="grades-Dates-Text">August 20, 2017</p>
+          </div>
+          <div class="grades-End-Date">
+            <h6 class="grades-Dates-Text date-Font">END DATE:</h6>
+            <p class="grades-Dates-Text">December 15, 2017</p>
+          </div>
 
-        <h4 class="hero-Title-Text">MATH 137 K, T&amp;TH, 8:00am - 9:20am</h4>
-        <h1 class="content-Subtitle-Text">Intermediate Algebra</h1>
-        <!-- The grade is given a white background to work inside of -->
-        <div class="grades-Background">
-          <div class="grades-Circles">
-            <div class="grades-Circle-Highlight">
-              <h1 class="grades-Complete-Text">40%</h1>
-              <p class="grades-Dates-Text"> of class completed</p>
+          <h4 class="hero-Title-Text">MATH 137 K, T&amp;TH, 8:00am - 9:20am</h4>
+          <h1 class="content-Subtitle-Text">Intermediate Algebra</h1>
+          <!-- The grade is given a white background to work inside of -->
+          <div class="grades-Background">
+            <div class="grades-Circles">
+              <div class="grades-Circle-Highlight">
+                <h1 class="grades-Complete-Text">40%</h1>
+                <p class="grades-Dates-Text complete-Class"> of class completed</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- More divs are used inside of the white box to  -->
-        <div class="grades-Start-Date">
-          <h6 class="grades-Dates-Text">Start Date:</h6>
-          <p class="grades-Dates-Text">August 20, 2017</p>
-        </div>
-        <div class="grades-End-Date">
-          <h6 class="grades-Dates-Text">End Date:</h6>
-          <p class="grades-Dates-Text">December 15, 2017</p>
-        </div>
+          <!-- More divs are used inside of the white box to  -->
+          <div class="grades-Start-Date">
+            <h6 class="grades-Dates-Text date-Font">START DATE:</h6>
+            <p class="grades-Dates-Text">August 20, 2017</p>
+          </div>
+          <div class="grades-End-Date">
+            <h6 class="grades-Dates-Text date-Font">END DATE:</h6>
+            <p class="grades-Dates-Text">December 15, 2017</p>
+          </div>
 
-        <h4 class="hero-Title-Text">ENG 106 J, T&amp;TH, 9:30am - 10:50am</h4>
-        <h1 class="content-Subtitle-Text">Into to Web Applications</h1>
-        <!-- The grade is given a white background to work inside of -->
-        <div class="grades-Background">
-          <div class="grades-Circles">
-            <div class="grades-Circle-Highlight">
-              <h1 class="grades-Complete-Text">40%</h1>
-              <p class="grades-Dates-Text"> of class completed</p>
+          <h4 class="hero-Title-Text">ENG 106 J, T&amp;TH, 9:30am - 10:50am</h4>
+          <h1 class="content-Subtitle-Text">Into to Web Applications</h1>
+          <!-- The grade is given a white background to work inside of -->
+          <div class="grades-Background">
+            <div class="grades-Circles">
+              <div class="grades-Circle-Highlight">
+                <h1 class="grades-Complete-Text">40%</h1>
+                <p class="grades-Dates-Text complete-Class"> of class completed</p>
+              </div>
             </div>
+          </div>
+          <!-- More divs are used inside of the white box to  -->
+          <div class="grades-Start-Date">
+            <h6 class="grades-Dates-Text date-Font">START DATE:</h6>
+            <p class="grades-Dates-Text">August 20, 2017</p>
+          </div>
+          <div class="grades-End-Date">
+            <h6 class="grades-Dates-Text date-Font">END DATE:</h6>
+            <p class="grades-Dates-Text">December 15, 2017</p>
           </div>
         </div>
         <!-- More divs are used inside of the white box to  -->

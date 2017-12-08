@@ -1,19 +1,46 @@
 .right-Content {
 position: absolute;
 margin-left: 470px;
-margin-top: -1170px;
+margin-top: -900px;
+}
+
+.left-Content h1 {
+  padding-bottom: 240px;
+}
+
+.grades-Background {
+  position: absolute;
+  width: 345px;
+  height: 190px;
+  background-color: #ffffff;
+  margin-top: -220px;
 }
 
 .grades-Background .grades-Complete-Text {
   position: absolute;
   margin-left: 55px;
-  margin-top: 72px;
-}
+  margin-top: 65px;
+  }
+
 
 .grades-Background .complete-Class {
   position: absolute;
   text-align: center;
-  width: 20px;
-  margin-left: 55px;
-  margin-top: 82px;
+  width: 80px;
+  margin-left: 45px;
+  margin-top: 83px;
+}
+
+.grades-Start-Date {
+  position: absolute;
+  line-height: 1px;
+  margin-left: 190px;
+  margin-top: -171px;
+}
+
+.grades-End-Date {
+  position: absolute;
+  line-height: 1px;
+  margin-left: 190px;
+  margin-top: -117px;
 }
