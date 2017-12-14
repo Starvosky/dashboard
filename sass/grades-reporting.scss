@@ -1,11 +1,15 @@
 .right-Content {
 position: absolute;
-margin-left: 470px;
-margin-top: -900px;
+margin-left: 380px;
+margin-top: -1840px;
 }
 
 .left-Content h1 {
   padding-bottom: 240px;
+}
+
+.grades-Background .content-Subtitle-Text {
+  white-space: nowrap;
 }
 
 .grades-Background {
@@ -20,8 +24,7 @@ margin-top: -900px;
   position: absolute;
   margin-left: 55px;
   margin-top: 65px;
-  }
-
+}
 
 .grades-Background .complete-Class {
   position: absolute;
@@ -43,4 +46,37 @@ margin-top: -900px;
   line-height: 1px;
   margin-left: 190px;
   margin-top: -117px;
+}
+
+.grades-Percent-Background {
+  width:130px;
+  height: 74px;
+  margin-left: 130px;
+  margin-top: -10px;
+  margin-bottom: 55px;
+  background-color: #ffffff;
+}
+
+.grades-Percent-Background .grades-Title-Text {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.grades-Percent-Background .grades-Percent {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.left-Content-Subtitle-Boxes {
+  line-height: 25px;
+  margin-bottom: 95px;
+}
+
+.right-Content-Subtitle-Boxes {
+  position: absolute;
+  line-height: 25px;
+  margin-left: 180px;
+  margin-top: -195px;
 }

@@ -7,7 +7,7 @@ max-width: 1600px;
 height: 745px;
 }
 
-//These three give each section the over lapping background color.
+ //These three give each section the over lapping background color.
 .desktop-background {
   background-color: #f7f7f7;
   width: 950px;
@@ -94,7 +94,7 @@ width: 355px;
 }
 
 .scrolling-Content h1{
-  width: 250px;
+  width: 350px;
 }
 
 .scrolling-Content .program {
@@ -129,4 +129,17 @@ width: 355px;
   background-color: #3bb9ba;
   width: 114px;
   height: 42px;
+
+.homepage-Header {
+  margin-left: 230px;
+}
+
+.homepage-Aside {
+  position: absolute;
+  margin-top: -740px;
+  margin-left: 20px;
+}
+
+.homepage-Hero-Content {
+  margin-top: -670px;
 }
