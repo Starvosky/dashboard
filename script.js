@@ -35,7 +35,7 @@ function getEmail() {
   var text = document.forms['emailValidation']['email'].value;
 
   if  (str.slice(-19) == '@stevenscollege.edu'){
-    alert('This works');
+    window.location.href = 'pages/homepage.html';
     return false;
   } else {
     alert('Not an email');
