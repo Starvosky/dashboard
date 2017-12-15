@@ -17,28 +17,22 @@
     <div class="page-Breaks top-Break"></div>
   </section>
 
-    <section class="login-Portal">
-      <h1 class="school-Name">Thaddeus Stevens College of Technology</h1>
-      <h4 class="student-Portal">Student Portal</h4>
+  <section class="login-Portal">
+    <h1 class="school-Name">Thaddeus Stevens College of Technology</h1>
+    <h4 class="student-Portal">Student Portal</h4>
 
-      <div class="login-Information-Email">
-        <form class="email-Entry">
-          <input type="text" name="email">Email</input>
-        </form>
-      </div>
+    <form name="emailValidation" action="index.html" onsubmit="return getEmail()" class="email-Entry">
+      <input type="text" name="email" id='emailId'>Email
+      <input type="text" name="password">Password
+      <input class="white-Twelve" type="submit" value="SUBMIT">
+    </form>
 
-      <div class="login-Information-Password">
-        <form class="password-Entry">
-          <input type="text" name="password">Password</input>
-        </form>
-      </div>
+    <div class="submit-Button">
+      <p class="white-Twelve">SUBMIT</p>
+    </div>
 
-      <div class="submit-Button">
-        <p class="white-Twelve">SUBMIT</p>
-      </div>
-
-      <h5 class="forgot-Password">Forgot Password</h5>
-    </section>
-    <script src="script.js" type="text/javascript"></script>
-  </body>
-  </html>
+    <h5 class="forgot-Password">Forgot Password</h5>
+  </section>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
