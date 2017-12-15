@@ -41,3 +41,12 @@ function getEmail() {
     alert('Not an email');
   }
 }
+
+function reveal() {
+    var x = document.getElementById("cloak");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}

@@ -29,13 +29,13 @@
   font-weight: bold;
   word-spacing: 5px;
 }
+
 .monday , .tuesday , .wednesday , .thursday, .friday{
   background-color: rgba(47, 207, 186, 0.15);
   width: 10%;
   line-height: 12px;
   letter-spacing: 0.2px;
   text-align: center;
-  visibility: hidden;
 }
 .monday{
   position: absolute;
