@@ -17,22 +17,21 @@ height: 745px;
   width: 600px;
   height: 370px;
   padding-top: 165px;
-}
-
-.school-Name , .student-Portal , .email-Entry , .password-Entry{
-  text-align: center;
-}
-
-.login-Portal{
   background-color: #ffffff;
   position: absolute;
   margin-top: -650px;
   margin-left: 120px;
   letter-spacing: 0.2px;
 }
+
+.school-Name , .student-Portal , .email-Entry , .password-Entry{
+  text-align: center;
+}
+
+
 .submit-Button{
   position: absolute;
-  margin-left: 152px;
+  margin-left: 159px;
 }
 .white-Twelve{
   text-align: center;
@@ -42,5 +41,16 @@ height: 745px;
   text-align: center;
   position: absolute;
   margin-top: 30px;
-  margin-left: 310px;
+  margin-left: 308px;
+}
+.email-Entry{
+  padding-bottom: 9px;
+}
+.login-Info{
+  color: #3bb9ba;
+  border: 2px solid #3bb9ba;
+  outline: none;
+  padding-top: 25px;
+  padding-left: 92px;
+  padding-right: 92px;
 }
