@@ -13,12 +13,12 @@
 
     <header class="body-Header">
 
-      <h4 class="header-Title-Text">Home</h4>
+      <h4 class="header-Title-Text">HOME > ACADEMIC SERVICES ></h4><h6 class="header-Title-Text-Two"> CURRENT SCHEDULE</h6>
       <!-- The empty h4 is for the current date through javascript.-->
       <ul class="date-Log-Out">
         <li class="header-Date-Text"><p id="body-Header"></p></li>
-        <li class="header-Log-Out-Text">Log Out?</li>
-      </ul>
+        <li class="header-Log-Out-Text"><a href="account-settings.html">SETTINGS</a> | <a href="../index.html">LOG OUT?</a></li>
+        </ul>
       <!-- a div class will be used to create a rectangle line to seperate the content of each section-->
       <div class="page-Breaks top-Break"></div>
     </header>
@@ -52,20 +52,20 @@
 
       <h1 class="profile-Name">Benedic Cumberbatch</h1>
       <div class="aside-List">
-        <h5 class="aside-Titles">Academic Services</h5>
-        <ul>
-          <li class="aside-Options">Academic Dashboard</li>
-          <li class="aside-Options">Current Schedule</li>
-          <li class="aside-Options">Grades &amp; Reporting</li>
-          <li class="aside-Options">Upcoming Courses</li>
-        </ul>
-        <h5 class="aside-Titles">College Information</h5>
-        <ul>
-          <li class="aside-Options">College Calendar</li>
-          <li class="aside-Options">Financial Aid</li>
-          <li class="aside-Options">Student Services</li>
-        </ul>
-      </div>
+      <h5 class="aside-Titles">Academic Services</h5>
+      <ul>
+        <li class="aside-Options"><a href="academic-dashboard.html">Academic Dashboard</a></li>
+        <li class="aside-Options"><a href="currentschedule.html">Current Schedule</a></li>
+        <li class="aside-Options"><a href="grades-reporting.html">Grades &amp; Reporting</a></li>
+        <li class="aside-Options"><a href="upcomingcourses.html">Upcoming Courses</a></li>
+      </ul>
+      <h5 class="aside-Titles">College Information</h5>
+      <ul>
+        <li class="aside-Options"><a href="https://my.stevenscollege.edu/ICS/Home.jnz?portlet=Events_Calendar&screen=MainView&screenType=change">College Calendar</a></li>
+        <li class="aside-Options"><a href="https://stevenscollege.edu/financialaid/">Financial Aid</a></li>
+        <li class="aside-Options"><a href="https://my.stevenscollege.edu/ICS/Students/">Student Services</a></li>
+      </ul>
+    </div>
     </section>
 
     <div class="current-Schedule">
@@ -91,11 +91,11 @@
     </div>
 
     <div class="view-As">
-      <p class="view-As-List">View as: List <span class="view-Space"> | </span> Calender</div></p>
+      <p class="view-As-List">View as: List <span class="view-Space"> | </span><button onclick="reveal()">Calender</button>
     </div>
 
     <section class="current-Schedule-Calender">
-      <div class="monday">
+      <div id="cloak" class="monday">
         <h1 class="schedule-Day-Text">Monday</h1>
 
         <div class="eng-101">
@@ -109,7 +109,7 @@
         </div>
       </div>
 
-      <div class="tuesday">
+      <div id="cloak" class="tuesday">
         <h1 class="schedule-Day-Text">Tuesday</h1>
 
         <div class="math-100">
@@ -123,7 +123,7 @@
         </div>
       </div>
 
-      <div class="wednesday">
+      <div id="cloak" class="wednesday">
         <h1 class="schedule-Day-Text">Wednesday</h1>
 
         <div class="eng-101">
@@ -137,7 +137,7 @@
         </div>
       </div>
 
-      <div class="thursday">
+      <div id="cloak" class="thursday">
         <h1 class="schedule-Day-Text">Thursday</h1>
 
         <div class="math-100">
@@ -151,7 +151,7 @@
         </div>
       </div>
 
-      <div class="friday">
+      <div id="cloak" class="friday">
         <h1 class="schedule-Day-Text">Friday</h1>
         <div class="free-Time-Friday"><p class="break-Time">Break</p></div>
         <div class="cset-120">
@@ -173,6 +173,6 @@
     </div>
   </section>
 
-    <script src="script.js" type="text/javascript"></script>
+    <script src="../script.js" type="text/javascript"></script>
   </body>
   </html>

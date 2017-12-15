@@ -29,3 +29,24 @@ var time = new Date();
 console.log(n + ', ' + m + ' ' + time.getDay() + ', ' + time.getFullYear());
 
 document.getElementById("body-Header").innerHTML = (n + ', ' + m + ' ' + time.getDate() + ', ' + time.getFullYear());
+
+function getEmail() {
+  var str = document.getElementById('emailId').value;
+  var text = document.forms['emailValidation']['email'].value;
+
+  if  (str.slice(-19) == '@stevenscollege.edu'){
+    window.location.href = 'pages/homepage.html';
+    return false;
+  } else {
+    alert('Not an email');
+  }
+}
+
+function reveal() {
+    var x = document.getElementById("cloak");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
